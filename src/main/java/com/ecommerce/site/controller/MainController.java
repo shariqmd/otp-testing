@@ -33,7 +33,7 @@ public class MainController {
 	@Autowired
 	UserRepository userRep;
 	
-	@GetMapping("/home")
+	@GetMapping(value={"/home","/"})
 	public String home()
 	
 	
